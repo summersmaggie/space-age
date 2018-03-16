@@ -55,4 +55,9 @@ describe('Calculator', function() {
     let test = new Calculator("30","80")
     expect(test.lifeExpectancyMars("30", "80")).toEqual(64)
   })
+
+  it('should return how many years a human has left to live on Jupiter', function() {
+    let test = new Calculator("30","80")
+    expect(test.lifeExpectancyJupiter("30", "80")).toEqual(77)
+  })
 });
