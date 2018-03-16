@@ -40,4 +40,10 @@ export class Calculator {
     let jupiterAge = Math.round((age / 11.86));
     return jupiterAge;
   }
+
+  lifeExpectancyEarth(age, lifeExpectancy) {
+    let remainingYears = lifeExpectancy - age;
+    return remainingYears;
+  }
+
 }
