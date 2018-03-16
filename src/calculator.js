@@ -52,4 +52,10 @@ export class Calculator {
     return remainingYears;
   }
 
+  lifeExpectancyVenus(age, lifeExpectancy) {
+    let venusAge = Math.round(age / 0.62);
+    let remainingYears = lifeExpectancy - venusAge;
+    return remainingYears;
+  }
+
 }
