@@ -7,9 +7,18 @@ describe('Date', function() {
     expect(newDate.age).toEqual("30")
   });
 
-  it ('takes a year and converts it to seconds', function () {
+  it ('takes a year and converts it to seconds', function() {
     let newDate = new Date("birthdate", "30")
     expect(newDate.yearToSeconds("30")).toEqual(946080000)
   });
+
+  it('takes two date and determines the difference between those dates', function() {
+    let date1 = new Date("birthdate", "30")
+    let date2 = new Date("birthdate", "20")
+    let date1Seconds = date1.yeartoSeconds("30")
+    let date2Seconds = date2.yearToSeconds("20")
+    expect(date2seconds - date1seconds).toEqual(315360000)
+    )
+  })
 
 });
