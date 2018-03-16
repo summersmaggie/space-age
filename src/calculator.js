@@ -4,11 +4,10 @@ export class Calculator {
     this.date = new Date();
   }
 
-  // dateToSeconds() {
-  //   const now = new Date();
-  //   console.log(now);
-  //   let age =  - new Date(birthdate);
-  //   return age
-  //
-  // }
+  dateToSeconds(birthday) {
+    let birthdate = new Date(birthday);
+    let milliseconds = birthdate.getTime();
+    let seconds = milliseconds / 1000;
+    return seconds;
+  }
 }
