@@ -11,5 +11,7 @@ export class Calculator {
     return seconds;
   }
 
+  findAge() {
 
+  }
 }

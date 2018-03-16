@@ -11,4 +11,9 @@ describe('Calculator', function() {
     expect(calculator.dateToSeconds('1995-12-17T03:40:00+00:00')).toEqual(819171600)
   });
 
+  it('should take two dates and find the difference between them', function() {
+    let calculator = new Calculator('1995-12-17T03:40:00+00:00', new Date())
+    expect(calculator.findAge('1995-12-17T03:40:00+00:00', new Date())).toEqual(702054728)
+  })
+
 });
