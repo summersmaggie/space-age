@@ -18,4 +18,9 @@ export class Calculator {
     console.log(ageInSeconds);
     return ageInSeconds;
   }
+
+  spaceAge() {
+    
+  }
+
 }

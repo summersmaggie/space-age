@@ -16,4 +16,8 @@ describe('Calculator', function() {
     expect(calculator.findAge('1995-12-17T03:40:00+00:00', new Date())).toEqual(Math.round(new Date().getTime()/1000) - 819171600)
   });
 
+  it('should return age of human in Mercury years', function() {
+    let test = new Calculator('1988-03-09T03:40:00+00:00', new Date())
+    expect(test.spaceAge('1988-03-09T03:40:00+00:00', new Date())).toEqual(124.6)
+  });
 });
