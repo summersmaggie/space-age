@@ -22,8 +22,12 @@ export class Calculator {
 
   mercuryAge(age) {
     let mercuryAge = (age / 0.24);
-    console.log(mercuryAge);
     return mercuryAge;
+  }
+
+  venusAge(age) {
+    let venusAge = Math.round((age / 0.62));
+    return venusAge;
   }
 
 

@@ -20,4 +20,9 @@ describe('Calculator', function() {
     let test = new Calculator("30")
     expect(test.mercuryAge("30")).toEqual(125)
   });
+
+  it('should return age of human in Venus years', function() {
+    let test = new Calculator("30")
+    expect(test.venusAge("30")).toEqual(48)
+  });
 });
