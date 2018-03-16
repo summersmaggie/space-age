@@ -11,7 +11,11 @@ export class Calculator {
     return seconds;
   }
 
-  findAge() {
-
+  findAge(birthday, date) {
+    const birthdayInSeconds = Math.round(new Date(birthday).getTime()/1000);
+    let dateInSeconds = Math.round(new Date(date).getTime()/1000);
+    let ageInSeconds = dateInSeconds - birthdayInSeconds;
+    console.log(ageInSeconds);
+    return ageInSeconds;
   }
 }
