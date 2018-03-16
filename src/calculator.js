@@ -30,5 +30,10 @@ export class Calculator {
     return venusAge;
   }
 
+  marsAge(age) {
+    let marsAge = Math.round((age / 1.88));
+    return marsAge;
+  }
+
 
 }
