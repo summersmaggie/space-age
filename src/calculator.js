@@ -5,9 +5,11 @@ export class Calculator {
   }
 
   dateToSeconds(birthday) {
-    let birthdate = new Date(birthday);
+    const birthdate = new Date(birthday);
     let milliseconds = birthdate.getTime();
     let seconds = milliseconds / 1000;
     return seconds;
   }
+
+
 }
