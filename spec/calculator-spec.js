@@ -46,6 +46,11 @@ describe('Calculator', function() {
     expect(test.lifeExpectancyMercury("30", "80")).toEqual(-45)
   })
 
+  it('should return how many years a human has outlived their life expenctancy on Mercury', function() {
+    let test = new Calculator("87","80")
+    expect(test.lifeExpectancyMercury("87", "80")).toEqual(7)
+  })
+
   it('should return how many years a human has left to live on Venus', function() {
     let test = new Calculator("30","80")
     expect(test.lifeExpectancyVenus("30", "80")).toEqual(32)
