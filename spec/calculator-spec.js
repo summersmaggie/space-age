@@ -50,4 +50,9 @@ describe('Calculator', function() {
     let test = new Calculator("30","80")
     expect(test.lifeExpectancyVenus("30", "80")).toEqual(32)
   })
+
+  it('should return how many years a human has left to live on Mars', function() {
+    let test = new Calculator("30","80")
+    expect(test.lifeExpectancyMars("30", "80")).toEqual(64)
+  })
 });
