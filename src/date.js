@@ -1,6 +1,5 @@
 export class Date {
-  constructor(birthdate, age) {
-    this.birthdate = birthdate;
+  constructor(age) {
     this.age = age;
   }
 
