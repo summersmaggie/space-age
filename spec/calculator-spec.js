@@ -25,4 +25,9 @@ describe('Calculator', function() {
     let test = new Calculator("30")
     expect(test.venusAge("30")).toEqual(48)
   });
+
+  it('should return age of human in Mars years', function() {
+    let test = new Calculator("30")
+    expect(test.marsAge("30")).toEqual(16)
+  });
 });
