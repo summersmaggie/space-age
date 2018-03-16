@@ -63,4 +63,10 @@ export class Calculator {
     let remainingYears = lifeExpectancy - marsAge;
     return remainingYears;
   }
+
+  lifeExpectancyJupiter(age, lifeExpectancy) {
+    let jupiterAge = Math.round(age / 11.86);
+    let remainingYears = lifeExpectancy - jupiterAge;
+    return remainingYears;
+  }
 }
