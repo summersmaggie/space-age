@@ -58,4 +58,9 @@ export class Calculator {
     return remainingYears;
   }
 
+  lifeExpectancyMars(age, lifeExpectancy) {
+    let marsAge = Math.round(age / 1.88);
+    let remainingYears = lifeExpectancy - marsAge;
+    return remainingYears;
+  }
 }
