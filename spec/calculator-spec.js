@@ -33,6 +33,6 @@ describe('Calculator', function() {
 
   it('should return age of human in Jupiter years', function() {
     let test = new Calculator("30")
-    expect(test.jupiterAge("30").toEqual(3)
+    expect(test.jupiterAge("30")).toEqual(3)
   })
 });
