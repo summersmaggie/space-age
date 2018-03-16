@@ -8,24 +8,34 @@
 
 _Want to feel younger? How about older? Good news! Time is relative, and this application is here to prove that fact. Enter your birthdate, and see how old (or young) you are in solar years! Now if we could just get time travel working..._
 
-<!-- ### Specifications
-    1. User enters birthdate.
+### Specifications
+ 1. _User enters their birthday._
 
-    2. User sees the amount of years
+ 2. _Input date is is converted to seconds._
 
-## Install the DATABASE instructions
+ 3. _Determine age in seconds by subtracting today's date in seconds from birthdate._
 
-* _Enter into the terminal:_ ``` $postgres```
+ 4. _Convert age in Earth years to age in Mercury years._
 
-* _In the following line, enter:_ ```$rake db:create```
+ 5. _Convert age in Earth years to age in Venus years._
 
-* _In the following line, enter:_ ```$rake db:migrate```
+ 6. _Convert age in Earth years to age in Mars years._
+
+ 7. _Convert age in Earth years to age in Jupiter years._
+
+ 8. _Determine how many years a user has left to live on each planet._
+
+ 9. _If user has surpassed the average life expectancy, return number of years they've lived past it._
 
 ## Setup/Installation Requirements
 
-  * _Enter in the terminal:_ ``` $ruby app.rb```
+  * _Clone this repository._
 
-  * _Using a web browser, type in the url:_ ``` localhost:4567 ``` -->
+  * _Enter into the terminal:_ ``` $npm install```
+
+  * _In the following line, enter:_ ```$npm build```
+
+  * _To test the program, enter:_ ```$npm test```
 
 ## Known Bugs
 
@@ -40,7 +50,6 @@ _Want to feel younger? How about older? Good news! Time is relative, and this ap
   * JavaScript
   * Karma, Jasmine
   * Webpack
-  * jQuery
 
 ### License
 
