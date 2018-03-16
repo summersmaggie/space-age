@@ -49,8 +49,7 @@ _Want to feel younger? How about older? Good news! Time is relative, and this ap
 
   * _Clone this repository._
 
-  * _If node isn't already installed, install node. if you are on a mac, use ``` $brew install node```. Otherwise, go to https://nodejs.org/en/download/ to download.
-
+  * _If node isn't already installed, install node. if you are on a mac, use ``` $brew install node```. Otherwise, go to https://nodejs.org/en/download/ to download._
 
   * _Enter into the terminal:_ ``` $npm install```
 
@@ -69,8 +68,7 @@ _Want to feel younger? How about older? Good news! Time is relative, and this ap
 ## Technologies Used
 
   * JavaScript
-  * Karma, Jasmine
-  * Webpack
+  * Karma, Jasmine, Webpack
 
 ### License
 
