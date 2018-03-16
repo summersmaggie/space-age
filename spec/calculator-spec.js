@@ -17,7 +17,7 @@ describe('Calculator', function() {
   });
 
   it('should return age of human in Mercury years', function() {
-    let test = new Calculator('1988-03-09T03:40:00+00:00', new Date())
-    expect(test.spaceAge('1988-03-09T03:40:00+00:00', new Date())).toEqual(124.6)
+    let test = new Calculator("30")
+    expect(test.mercuryAge("30")).toEqual(125)
   });
 });

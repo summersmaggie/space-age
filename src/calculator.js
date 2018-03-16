@@ -1,7 +1,8 @@
 export class Calculator {
-  constructor(birthday) {
+  constructor(birthday, age) {
     this.birthday = birthday;
     this.date = new Date();
+    this.age = age;
   }
 
   dateToSeconds(birthday) {
@@ -19,8 +20,11 @@ export class Calculator {
     return ageInSeconds;
   }
 
-  spaceAge() {
-    
+  mercuryAge(age) {
+    let mercuryAge = (age / 0.24);
+    console.log(mercuryAge);
+    return mercuryAge;
   }
+
 
 }
