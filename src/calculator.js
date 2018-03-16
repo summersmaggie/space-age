@@ -46,4 +46,10 @@ export class Calculator {
     return remainingYears;
   }
 
+  lifeExpectancyMercury(age, lifeExpectancy) {
+    let mercuryAge = (age / 0.24);
+    let remainingYears = lifeExpectancy - mercuryAge;
+    return remainingYears;
+  }
+
 }
