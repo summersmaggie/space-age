@@ -40,33 +40,48 @@ export class Calculator {
     let jupiterAge = Math.round((age / 11.86));
     return jupiterAge;
   }
-
-  lifeExpectancyEarth(age, lifeExpectancy) {
-    let remainingYears = lifeExpectancy - age;
-    return remainingYears;
-  }
-
+  
   lifeExpectancyMercury(age, lifeExpectancy) {
     let mercuryAge = (age / 0.24);
     let remainingYears = lifeExpectancy - mercuryAge;
-    return remainingYears;
+    let bonusYears = mercuryAge - lifeExpectancy;
+    if (mercuryAge > lifeExpectancy) {
+      return bonusYears;
+    } else {
+      return remainingYears;
+    }
   }
 
   lifeExpectancyVenus(age, lifeExpectancy) {
     let venusAge = Math.round(age / 0.62);
     let remainingYears = lifeExpectancy - venusAge;
-    return remainingYears;
+    let bonusYears = venusAge - lifeExpectancy;
+    if (venusAge > lifeExpectancy) {
+      return bonusYears;
+    } else {
+      return remainingYears;
+    }
   }
 
   lifeExpectancyMars(age, lifeExpectancy) {
     let marsAge = Math.round(age / 1.88);
     let remainingYears = lifeExpectancy - marsAge;
-    return remainingYears;
+    let bonusYears = marsAge - lifeExpectancy;
+    if (marsAge > lifeExpectancy) {
+      return bonusYears;
+    } else {
+      return remainingYears;
+    }
   }
 
   lifeExpectancyJupiter(age, lifeExpectancy) {
     let jupiterAge = Math.round(age / 11.86);
     let remainingYears = lifeExpectancy - jupiterAge;
-    return remainingYears;
+    let bonusYears = jupiterAge - lifeExpectancy;
+    if (jupiterAge > lifeExpectancy) {
+      return bonusYears;
+    } else {
+      return remainingYears;
+    }
   }
 }
